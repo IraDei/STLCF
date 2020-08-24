@@ -1,5 +1,5 @@
 function [] = STLCF(path, ext, tspan_rng, swind_rng, stlc_k)
-%STLCF 此处显示有关此函数的摘要
+%STLCF 
 % A matlab realisation on 
 % Infrared moving point target detection based on an anisotropic spatial-temporal fourth-order diffusion filter'
 % by 'Deng L, Zhu H, Tao C, Wei Y' in 'International Journal of Optics.
