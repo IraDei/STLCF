@@ -10,7 +10,7 @@ function [aviobj] = img2video(img_seq, nfrm, dir_opt, aviname, ext, frame_rate)
             if size(img_seq(:,:,i),1) ~= aviobj.Height || size(img_seq(:,:,i),2) ~= aviobj.Width
                 close(aviobj);
                 delete( aviname )
-                error('所有图片的尺寸要相同！！');
+                error('Inconsistent frame size!');
             end
         end
         
